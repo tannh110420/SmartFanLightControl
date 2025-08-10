@@ -35,10 +35,8 @@ Hệ thống có thể điều khiển thiết bị bằng giọng nói, điều
 ---
 
 ##  Hình ảnh dự án
-![Circuit Overview](images/anh1.jpg) 
-![App Control](images/mit_app.jpg) 
-![App Control](images/mit_app_1.jpg) 
-![Schematic](images/schematic.jpg) 
+![Img](https://drive.google.com/drive/u/3/folders/1gZtCFvmBUE2FmZBpUwB66-SnD-7jBpSH) 
+
 ---
 
 ##  Video demo
