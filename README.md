@@ -35,7 +35,7 @@ Hệ thống có thể điều khiển thiết bị bằng giọng nói, điều
 ---
 
 ##  Hình ảnh dự án
-![Img](https://drive.google.com/drive/u/3/folders/1gZtCFvmBUE2FmZBpUwB66-SnD-7jBpSH) 
+[![Img]](https://drive.google.com/drive/u/3/folders/1gZtCFvmBUE2FmZBpUwB66-SnD-7jBpSH) 
 
 ---
 
