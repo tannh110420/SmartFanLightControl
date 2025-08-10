@@ -42,8 +42,7 @@ Hệ thống có thể điều khiển thiết bị bằng giọng nói, điều
 ---
 
 ## 🎥 Video demo
-[![Video Demo](https://drive.google.com/drive/u/3/folders/1f1YwoMJC-NRLgKDCreqJtoRBvU9ys58_)
-
+(https://drive.google.com/drive/u/3/folders/1f1YwoMJC-NRLgKDCreqJtoRBvU9ys58_)
 
 ---
 
