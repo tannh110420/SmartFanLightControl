@@ -4,15 +4,15 @@
 #define DHTTYPE DHT22
 #define LED1 5
 #define FAN1 6
-#define LIGHT_SENSOR_PIN A0  // Cảm biến quang trở nối chân A0
+#define LIGHT_SENSOR_PIN A0  
 
 const float TEMP_THRESHOLD = 35.0;
 
 bool lightAutoMode = false;
 bool fanAutoMode = false;
 
-int lightLevel = 0;  // Độ sáng hiện tại
-int fanLevel = 0;    // Tốc độ quạt hiện tại
+int lightLevel = 0;  
+int fanLevel = 0;    
 
 DHT dht(DHTPIN, DHTTYPE);
 
@@ -133,7 +133,7 @@ void loop() {
       Serial.println("LED1: Chế độ tự động đã tắt.");
     }
 
-    // --------- Bật/tắt tất cả ---------
+    // Bật/tắt tất cả 
     else if (cmd == "ALL_ON") {
       lightAutoMode = false;
       fanAutoMode = false;
@@ -154,7 +154,7 @@ void loop() {
     }
   }
 
-  // --------- Tự động điều khiển quạt theo nhiệt độ ---------
+  // Tự động điều khiển quạt theo nhiệt độ 
   if (fanAutoMode) {
     float temp = dht.readTemperature();
 
@@ -173,7 +173,7 @@ void loop() {
     }
   }
 
-  // --------- Tự động điều khiển đèn theo ánh sáng ---------
+  // Tự động điều khiển đèn theo ánh sáng
   if (lightAutoMode) {
     int cdsValue = analogRead(LIGHT_SENSOR_PIN); // Giá trị từ 0 (sáng) đến 1023 (tối)
 
